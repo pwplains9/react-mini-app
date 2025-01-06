@@ -1,0 +1,44 @@
+.navigation {
+    //position: absolute;
+    left: 0;
+    right: 0;
+    bottom: vc(18);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: vc(30) vc(3) 0;
+    width: vc(358);
+    height: vc(82);
+    background: url('/images/nav.svg') center center no-repeat;
+    background-size: contain;
+    margin-top: vc(16);
+
+    li {
+        width: vc(64);
+        height: vc(64);
+
+        a {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            font-weight: 500;
+            font-size: vc(10);
+            line-height: vc(12);
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+            transition: all 0.3s ease-in;
+            gap: vc(12);
+
+            svg {
+                width: vc(20);
+                height: vc(20);
+            }
+
+            &.active {
+                color: $color-white;
+            }
+        }
+    }
+}

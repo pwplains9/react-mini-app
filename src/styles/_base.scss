@@ -1,0 +1,256 @@
+@use 'sass:math';
+
+:root {
+	--width-base: #{$desktop-md};
+	--width-current: #{$desktop-xxl * 1px};
+	--width-multiplier: var(--width-current) / var(--width-base);
+
+	@include desktop-xxl {
+		--width-current: 100vw;
+	}
+
+	@include devices {
+		--width-base: 390;
+		--width-current: 100vmin;
+	}
+}
+
+html {
+	width: 100%;
+
+	&.is-lock-scroll,
+	&.is-lock-scroll body {
+		overflow: hidden;
+	}
+
+	&.is-animating {
+		pointer-events: none;
+	}
+}
+
+body {
+	width: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-decoration-skip: objects;
+	text-rendering: optimizeLegibility;
+	text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+	font-family: $font-popins;
+	font-weight: 400;
+	color: $color-white;
+	background: $color-bg;
+
+
+	&.is-resizing {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	@include devices {
+		width: vc(390);
+	}
+}
+
+#root {
+	position: relative;
+	overflow-x: hidden;
+	width: vc(390);
+	margin: 0 auto;
+	min-height: 100vh;
+
+	&::before {
+		content: "";
+
+		position: absolute;
+		width: vc(377);
+		height: vc(409);
+		left: vc(-110.36);
+		top: vc(-57);
+
+		background: linear-gradient(180deg, #2400FF 0%, #00FFD1 100%);
+		opacity: 0.7;
+		filter: blur(100px);
+		transform: rotate(34.79deg);
+	}
+}
+
+main {
+	flex: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+fieldset,
+figure,
+picture,
+blockquote {
+	font-size: inherit;
+}
+
+a,
+button,
+[type='button'] {
+	color: currentColor;
+	cursor: pointer;
+}
+
+button,
+[type='button'] {
+	appearance: none;
+	border: 0;
+	border-radius: 0;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+}
+
+img,
+svg,
+video,
+picture {
+	position: relative;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+img {
+	height: auto;
+
+	&[draggable='false'] {
+		pointer-events: none;
+		// stylelint-disable-next-line
+		-webkit-user-drag: none;
+	}
+
+	.is-browser-chrome &:not([data-aos]) {
+		transform: translateZ(0);
+	}
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+	fill: none;
+}
+
+figure,
+picture {
+	display: block;
+	line-height: 0;
+}
+
+fieldset {
+	border: 0;
+}
+
+ul,
+ol,
+li {
+	display: block;
+	list-style: none;
+}
+
+iframe {
+	display: block;
+}
+
+.container {
+
+}
+@mixin generate-spacing-classes($abbr, $property, $step, $max) {
+	$value: 0;
+
+	@for $i from 0 through $max {
+		@if ($i > 0) {
+			$value: vc($i);
+		}
+
+		@if ($i % $step == 0) {
+			.#{$abbr}-#{$i} {
+				#{$property}: $value;
+			}
+			.#{$abbr}t-#{$i} {
+				#{$property}-top: $value;
+			}
+			.#{$abbr}r-#{$i} {
+				#{$property}-right: $value;
+			}
+			.#{$abbr}b-#{$i} {
+				#{$property}-bottom: $value;
+			}
+			.#{$abbr}l-#{$i} {
+				#{$property}-left: $value;
+			}
+			.#{$abbr}x-#{$i} {
+				#{$property}-left: $value;
+				#{$property}-right: $value;
+			}
+			.#{$abbr}y-#{$i} {
+				#{$property}-top: $value;
+				#{$property}-bottom: $value;
+			}
+		}
+
+		@if ($i % $step == 0) {
+			.#{$abbr}-sm-#{$i} {
+				@include devices {
+					#{$property}: $value !important;
+				}
+			}
+			.#{$abbr}t-sm-#{$i} {
+				@include devices {
+					#{$property}-top: $value !important;
+				}
+			}
+			.#{$abbr}r-sm-#{$i} {
+				@include devices {
+					#{$property}-right: $value !important;
+				}
+			}
+			.#{$abbr}b-sm-#{$i} {
+				@include devices {
+					#{$property}-bottom: $value !important;
+				}
+			}
+			.#{$abbr}l-sm-#{$i} {
+				@include devices {
+					#{$property}-left: $value !important;
+				}
+			}
+			.#{$abbr}x-sm-#{$i} {
+				@include devices {
+					#{$property}-left: $value !important;
+					#{$property}-right: $value !important;
+				}
+			}
+			.#{$abbr}y-sm-#{$i} {
+				@include devices {
+					#{$property}-top: $value !important;
+					#{$property}-bottom: $value !important;
+				}
+			}
+		}
+	}
+}
+// Margin
+@include generate-spacing-classes(m, margin, $step: 5, $max: 100);
+
+// Padding
+@include generate-spacing-classes(p, padding, $step: 5, $max: 100);
+//
+//.fadeInRight {
+//	animation-name: fadeInRight;
+//	animation-timing-function: cubic-bezier(.215,.61,.355,1) !important;
+//}
+

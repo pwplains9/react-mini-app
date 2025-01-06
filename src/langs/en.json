@@ -1,0 +1,309 @@
+{
+  "intro": {
+    "label": "FETCH PROFITS",
+    "title": "THE ENTERTAINING NOVELTY IN CRYPTO ",
+    "text": "Let’s join forces and change the crypto market for good by following a different approach towards automated trading and community involvement!"
+  },
+  "form": {
+    "text1": "Next price increase in",
+    "text2": "USDT raised",
+    "text3": "Current price",
+    "text4": "Next Price",
+    "text5": "YOUR PURCHASED $DAGZ TOKENS",
+    "text6": "YOUR STAKEABLE $DAGZ TOKENS",
+    "text7": "You pay",
+    "text8": "You receive",
+    "button1": "Connect Wallet",
+    "button2": "Buy with BNB",
+    "textLast": "Don’t have a wallet?",
+    "popup": "Now you will be redirected to the",
+    "popupStaking": "Staking page"
+  },
+  "navLinks": [
+    {
+      "link": "/staking",
+      "name": "Staking"
+    },
+    {
+      "target": true,
+      "link": "/files/Whitepaper.pdf",
+      "name": "Whitepaper"
+    },
+
+    {
+      "target": true,
+      "link": "/files/DawgsAIAudit.pdf",
+      "name": "Audit"
+    }
+  ],
+  "headerButton": "Connect wallet",
+  "marqueeText": "Featured In...",
+  "info": {
+    "title": "Presenting: DAWGZ AI",
+    "text1": "“Seriously Revamping Cryptocurrency”",
+    "text3": "Hi, I’m DAWGZ AI,",
+    "text4": "Ever think you would invest your extra earnings with a living meme whose digital mind is powered by artificial intelligence?\n",
+    "text5": "I’m DAWGZ Ai and I got a pocketful of trade bots to help you mess around and get a triple double or some other insane return on investment (ROI) for your highly-valued contribution to fund and capitalize Ethereum, the world’s leading and fastest growing smart contract platform.\n",
+    "text6": "With all these powerful AI meme coins in competition in 2024 to stuff your bag with Web3 ROI, indecision is no friend to your portfolio. Altcoin presale gem hunters care if they get behind.,",
+    "text7": "So don’t wait around. Get ahead of the curve and make something happen for yourself again with a good solid lick off the AI Dawgz economy while the tokens are still available at the premarket price.,"
+  },
+  "whyTitle": "Why DAWGZ Ai?",
+  "why": [
+    {
+      "image": "images/fun.svg",
+      "title": "Meme Coin ROI",
+      "text": "Are you afraid of making too much profit investing in a sexy new meme currency that looks and sounds too stupid to your friends? Or are you afraid of missing the next moonshot meme coin?\n"
+    },
+    {
+      "image": "images/diamond.svg",
+      "title": "Advanced Technology:",
+      "text": "Our high-frequency trading algorithms powered by artificial intelligence are designed to ensure consistent returns with minimum effort from holders as they run 24/7, 365.\n"
+    },
+    {
+      "image": "images/people.svg",
+      "title": "Accessible Investment",
+      "text": "DAWGZ Ai was created so people could have fun while investing in cryptocurrencies without reducing potential profitability. Win Win!\n"
+    },
+    {
+      "image": "images/up.svg",
+      "title": "Community & Hype",
+      "text": "Some other meme coins out there have been hyping that the dog days are over. But doge-themed meme coins have delivered class-leading ROIs to altcoin gem hunters.\n"
+    }
+  ],
+  "howTitle": "Connect Your Wallet",
+  "how": {
+    "title1": "Select Network",
+    "text1": "After connecting your wallet, choose Ethereum network as\nwe accept ETH or USDT.",
+    "title2": "Purchase Tokens",
+    "text2": "Input the amount of $DAGZ tokens that you intend to buy with ETH or USDT before confirming the transaction.\n",
+    "title3": "Staking Option",
+    "text3": "For additional rewards consider staking your newly acquired tokens. Staked tokens will become available eight days after presale ends if not claimed otherwise.\n",
+    "title4": "Token Claim",
+    "text4": "If you don’t want to stake then simply claim your $DAGZ tokens on our website using same wallet and network.\n",
+    "button": "Buy $DAWGSAI"
+  },
+  "tokenomicsTitle": "Liquidity Pool Mining and Token Claims",
+  "tokenomicsSupply": "Total supply",
+  "tokenomics": [
+    {
+      "image": "images/taps/red.svg",
+      "name": "DEX/CEX Liquidity Pool",
+      "value": 100,
+      "percent": "10%"
+    },
+    {
+      "image": "images/taps/yellow.svg",
+      "name": "Presale",
+      "value": 300,
+      "percent": "30%"
+    },
+    {
+      "image": "images/taps/rose.svg",
+      "name": "Marketing Fund",
+      "value": 200,
+      "percent": "24%"
+    },
+    {
+      "image": "/images/taps/blue.svg",
+      "name": "Staking Rewards",
+      "value": 200,
+      "percent": "20%"
+    },
+    {
+      "image": "/images/taps/green.svg",
+      "name": "Community Rewards",
+      "value": 100,
+      "percent": "15%"
+    },
+    {
+      "image": "/images/taps/blue-2.svg",
+      "name": "Foundation",
+      "value": 100,
+      "percent": "1%"
+    }
+  ],
+  "roadMapTitle": "Our Roadmap",
+  "roadMap": [
+    {
+      "image": "images/transformed-6.png",
+      "question": {
+        "number": "1",
+        "title": "Puppyhood",
+        "text": "(Conception and Launch)"
+      },
+      "answer": [
+        {
+          "title": "Concept Development:",
+          "text": " I see you, baby. We noticed that anything Reddit ever liked (doges, kittens, butts, even gay conservative frogs) tends to blow up altcoin investor ROI on Ethereum. So we created an AI blockchain puppy that we think the Web3 sector will really enjoy profiting with.\n"
+        },
+        {
+          "title": "Token Creation: ",
+          "text": "We issued a blockchain cryptocurrency named DAWGZ AI under the trade ticker $DAGZ. It’s secured and serviced by Ethereum, the world’s leading and most secure smart contract blockchain.\n"
+        },
+        {
+          "title": "Contract Audit:",
+          "text": "We had a trusted independent smart contract auditor— Coinsult— perform a full audit of our Ethereum meme currency on June, 4, 2024."
+        },
+        {
+          "title": "Website and Social Media: ",
+          "text": " We’re going to get back to the basics of meme marketing on social media and demoralize the competition with Impact font memes."
+        },
+        {
+          "title": "Marketing Push:",
+          "text": " It’s a dog eat dog world on crypto X. As the DAWGZ Ai memes pile on, we’re going to engage, initiate, and radicalize a small army of online meme warriors."
+        }
+      ]
+    },
+    {
+      "image": "images/transformed-4.png",
+      "question": {
+        "number": "2",
+        "title": "Growing the Pack",
+        "text": "(Building the Community)"
+      },
+      "answer": [
+        {
+          "title": "Community Engagement:",
+          "text": " Once the project has found its proper footing after our efforts in stage one, we’re going to keep the community humping for more clout.\n"
+        },
+        {
+          "title": "Partnerships:",
+          "text": "Meanwhile at the foundation, the DAWGZ Ai team will be hard at work forming strategic partnerships within the blockchain community and finding new price floors on all fours."
+        },
+        {
+          "title": "Technology:",
+          "text": "Enhance our AI trading alghoritms\n"
+        },
+        {
+          "title": "Exchange Listings: ",
+          "text": "See spot run. Spot runs fast. Run spot run!"
+        }
+      ]
+    },
+    {
+      "image": "images/transformed-7.png",
+      "question": {
+        "number": "3",
+        "title": "The Big Dog Stage",
+        "text": "(Expansion and Innovation)"
+      },
+      "answer": [
+        {
+          "title": "Enhanced Features: ",
+          "text": "We understand that sometimes users find new use cases for a tech product the developers didn’t think of. We’ll keep adding features as the project expands.\n"
+        },
+        {
+          "title": "Global Outreach: ",
+          "text": "In Stage 3 of our roadmap, we’ll promote the DAWGZ AI trading bot globally and continue to take de-paws-its and hold them safely on Ethereum."
+        },
+        {
+          "title": "Continuous Improvement: ",
+          "text": "Profit shouldn’t be for any one group or kind of individual. We’re building an inclusive economy, where the average retail investor can still get it in the end."
+        }
+      ]
+    },
+    {
+      "image": "images/transformed-8.png",
+      "question": {
+        "number": "4",
+        "title": "Alpha Dog Status ",
+        "text": "(Long-term Vision)"
+      },
+      "answer": [
+        {
+          "title": "Sustainable Growth:",
+          "text": "Pumping your portfolio doggy style— with love, commitment, and loyalty. We’re not interested in swiping all the inflows in a day and disappearing. We want our meme currency economy to hold its weight and gravity to keep the inflows coming. "
+        },
+        {
+          "title": "AI Ecosystem: ",
+          "text": "When enough capital and computational organization coalesces together on the Internet, you can not avoid spawning new forms of AI. The question is how you want to use it. We want to use ours to maximize profits for investors with dank memes and danker trading bots."
+        },
+        {
+          "title": "Mainstream Adoption: ",
+          "text": "Every dog at the pound dreams of adoption to its forever home. We’re aiming for the kind of growth that big time whale investors can really get behind.\n"
+        },
+        {
+          "title": "",
+          "text": "We want the kind of ROIs for our investors where the tail wags the dog and Ethereum has a big single digit day on the crypto market cap charts because DAWGZ Ai spent a day running deep into double digit gain territory."
+        }
+      ]
+    }
+  ],
+  "getTitle": "Join Our Community",
+  "getText": "Participate in our events, share your DAWGZ Ai-themed content, and win prizes! Let's grow our community together and make DAWGZ Ai a household name in the crypto world.",
+  "getButton": "Buy $DAGZ Tokens",
+  "faqTitle": "Frequently Asked Questions",
+  "faq": [
+    {
+      "question": {
+        "title": "Q: What is DAWGZ AI exactly?"
+      },
+      "answer": "A: DAWGZ Ai is a cryptocurrency project that combines artificial intelligence with blockchain technology in order to create a super advanced trading system. Our main purpose is maximizing profits through continuous analysis of markets using AI."
+    },
+    {
+      "question": {
+        "title": "Q:  How can I participate in DAWGZ Ai Presale?"
+      },
+      "answer": "A: You have an opportunity as an early supporter to purchase $DAGZ tokens at a discounted rate before they become available on the open market. \n"
+    },
+    {
+      "question": {
+        "title": "Q: How do I view my $DAGZ tokens after purchase?\n"
+      },
+      "answer": "A: Once you buy $DAGZ tokens, please ensure that you check your connected wallet, where they will appear visible. Make sure both wallet address and network are the same as those used during the purchase process for easy access and management later.\n"
+    },
+    {
+      "question": {
+        "title": "Q: Is DAWGZ Ai considered a meme coin?\n"
+      },
+      "answer": "A: Although we share fun and community aspects with meme coins, DAWGZ Ai differs by being more focused on the real-world application of AI in cryptocurrency trading.\n"
+    },
+    {
+      "question": {
+        "title": "Q: Is the $DAGZ AI presale smart contract safe?\n"
+      },
+      "answer": "A: Security is our utmost concern when it comes to smart contracts. We have rigorously audited our presale contract and taken strong steps to protect your investments.\n"
+    },
+    {
+      "question": {
+        "title": "Q: Do I need a specific type of cryptocurrency wallet to purchase $DAGZ tokens?\n"
+      },
+      "answer": "A: Yes, you will need a compatible cryptocurrency wallet for the presale as well as managing your $DAGZ tokens. We have various popular wallets that are supported for your convenience.\n"
+    }
+  ],
+  "footer": {
+    "disclamer": "DISCLAIMER",
+    "text": "Investing in'DAWGZ Ai' is risky and may lead to loss of capital. Returns are not guaranteed. Not financial advice. DYOR.",
+    "text1": "My '$DAGZ AI' Office Panamá",
+    "text2": "© 2024 $DAGZ AI. All Rights Reserved",
+    "text3": "Torre Inteligente, CrediCorp Bank, C. 50 3101 Panamá, Provincia de Panamá, Panama",
+    "text4": "Desing support by"
+  },
+  "StakingPage": {
+    "title": "staking",
+    "text": "The distribution of the $DAWGZ token reward will take place over a 2-year period and will be claimable once presale ends.",
+    "buttonLink": "Withdraw Staked Tokens",
+    "inputs": {
+      "label1": "Staked Balance",
+      "label2": "Your Stakeable",
+      "label3": "% of Pool",
+      "label4": "Estimated rewards",
+      "label5": "Your rewards",
+      "label6": "Total staked",
+      "text1": "Rewards rate is dynamic",
+      "text2": "Monthly = Rewards % / 12",
+      "text3": "Daily = Rewards % / 365"
+    },
+    "buttonStake": "Buy & Stake",
+    "buttonStake2": "Stake",
+    "buttonStake3": "Claim rewards",
+    "buttonStake4": "Stake rewards again",
+    "popup": "You can unstake and claim rewards 7 days after the presale ends"
+  },
+  "early": {
+    "title": "Get in early and",
+    "text1": "Make profits when the presale finishes and the coin is listed.",
+    "text2": "Enjoy high staking awards during the presale phase",
+    "text3": "Make your $DAGZ Tokens work by using the AI bot at launch"
+  }
+}

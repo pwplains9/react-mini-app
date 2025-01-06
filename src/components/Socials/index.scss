@@ -1,0 +1,39 @@
+.socials {
+    display: flex;
+    gap: 8px;
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #000;
+        border-radius: 12px;
+        width: 48px;
+        height: 48px;
+        box-shadow: -2px 2px 0 #000;
+        background: #fff;
+        gap: 10px;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+
+        @include devices {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    &--color {
+        .socials__item {
+            background: linear-gradient(153.43deg, #ff7e03 16.67%, #ffd600 100%);
+
+            @include devices {
+                width: 48px;
+                height: 48px;
+            }
+        }
+    }
+}
