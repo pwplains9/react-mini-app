@@ -7,12 +7,12 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+    margin-top: vc(16);
     padding: vc(30) vc(3) 0;
     width: vc(358);
     height: vc(82);
     background: url('/images/nav.svg') center center no-repeat;
     background-size: contain;
-    margin-top: vc(16);
 
     li {
         width: vc(64);

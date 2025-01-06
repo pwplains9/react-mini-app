@@ -1,128 +1,108 @@
 .home {
-  position: relative;
+    position: relative;
+    padding: vc(61) vc(16) 0;
 
-  padding: vc(61) vc(16) 0;
+    &__title {
+        margin-bottom: vc(12);
+        font-family: $font-Drunk;
+        font-weight: 1000;
+        font-size: vc(36);
+        line-height: vc(44);
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
 
-  &__title {
-
-    margin-bottom: vc(12);
-    font-family: $font-Drunk;
-
-    font-weight: 1000;
-    font-size: vc(36);
-    line-height: vc(44);
-
-    text-align: center;
-    letter-spacing: -0.02em;
-
-  }
-
-  &__text {
-    margin-bottom: vc(11);
-    font-weight: 600;
-    font-size: vc(12);
-    line-height: vc(20);
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    color: rgba(255, 255, 255, 0.6);
-
-
-  }
-
-  &__subTitle {
-    margin-bottom: vc(12);
-    font-weight: 600;
-    font-size: vc(20);
-    line-height: vc(28);
-
-
-  }
-
-  &__list {
-    margin-bottom: vc(16);
-    padding: vc(12);
-    gap: vc(12);
-
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(25px);
-
-    border-radius: 16px;
-    font-weight: 500;
-    font-size: vc(12);
-    line-height: vc(16);
-    color: rgba(255, 255, 255, 0.6);
-
-    &-head {
-      padding-bottom: vc(12);
-      margin-bottom: vc(12);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-
-      .home__list-col--1 {
-        font-weight: 400;
-        font-size: vc(14);
+    &__text {
+        margin-bottom: vc(11);
+        font-weight: 600;
+        font-size: vc(12);
         line-height: vc(20);
-
-      }
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.6);
     }
 
-    &-row {
-      display: flex;
+    &__subTitle {
+        margin-bottom: vc(12);
+        font-weight: 600;
+        font-size: vc(20);
+        line-height: vc(28);
     }
 
-    &-body {
-      display: flex;
-      flex-flow: column;
-      gap: vc(12);
-    }
+    &__list {
+        margin-bottom: vc(16);
+        border-radius: 16px;
+        padding: vc(12);
+        font-weight: 500;
+        font-size: vc(12);
+        line-height: vc(16);
+        color: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(25px);
+        gap: vc(12);
 
-    &-col {
-      &--1 {
-        width: vc(46);
-      }
+        &-head {
+            margin-bottom: vc(12);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+            padding-bottom: vc(12);
 
-      &--2 {
-        display: flex;
-        gap: vc(4);
-        width: vc(130);
-
-        img {
-          border-radius: 100px;
-          width: vc(16);
-          height: vc(16);
+            .home__list-col--1 {
+                font-weight: 400;
+                font-size: vc(14);
+                line-height: vc(20);
+            }
         }
-      }
 
-      &--3 {
-        width: vc(100);
-      }
+        &-row {
+            display: flex;
+        }
 
-      &--4 {
+        &-body {
+            display: flex;
+            flex-flow: column;
+            gap: vc(12);
+        }
 
-      }
+        &-col {
+            &--1 {
+                width: vc(46);
+            }
+
+            &--2 {
+                display: flex;
+                width: vc(130);
+                gap: vc(4);
+
+                img {
+                    border-radius: 100px;
+                    width: vc(16);
+                    height: vc(16);
+                }
+            }
+
+            &--3 {
+                width: vc(100);
+            }
+
+            &--4 {
+
+            }
+        }
     }
-  }
 
-  &__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: vc(44);
-
-    background: linear-gradient(135deg, #00FFAA 0%, #4579F5 51.65%, #9C42F5 99.83%);
-    border-radius: 12px;
-
-    font-weight: 800;
-    font-size: vc(14);
-    line-height: vc(14);
-
-    letter-spacing: -0.02em;
-
-    color: #FFFFFF;
-
-    text-shadow: 0px 1px 3px rgba(133, 160, 214, 0.07);
-
-  }
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        width: 100%;
+        height: vc(44);
+        font-weight: 800;
+        font-size: vc(14);
+        line-height: vc(14);
+        letter-spacing: -0.02em;
+        text-shadow: 0 1px 3px rgba(133, 160, 214, 0.07);
+        color: #fff;
+        background: linear-gradient(135deg, #0fa 0%, #4579f5 51.65%, #9c42f5 99.83%);
+    }
 }
