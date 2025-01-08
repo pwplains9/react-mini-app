@@ -65,8 +65,8 @@ const dataCategory = [
 const Categories = () => {
 	return (
 		<>
-			<Header/>
 			<div className="page category">
+				<Header/>
 				{
 					dataCategory.map((item, key) => {
 						return (

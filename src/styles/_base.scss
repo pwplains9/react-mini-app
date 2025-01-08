@@ -256,6 +256,8 @@ iframe {
 
 
 .page {
+	position: relative;
+	padding: vc(61) vc(16);
 	height: 90vh;
 	overflow-y: auto;
 }
