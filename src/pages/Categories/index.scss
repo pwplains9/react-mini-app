@@ -1,0 +1,100 @@
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    padding: vc(60) vc(16) 0;
+    gap: vc(12);
+}
+
+.card {
+    position: relative;
+    flex: 0 0 calc(100% / 2 - #{vc(6)});
+    overflow: hidden;
+    border-radius: 16px;
+    padding: vc(12);
+    height: vc(120);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(25px);
+
+    &__title {
+        margin-bottom: vc(20);
+        font-family: $font-Drunk;
+        font-weight: 1000;
+        font-size: vc(14);
+        line-height: vc(24);
+        letter-spacing: -0.02em;
+    }
+
+    &__length {
+        display: inline-flex;
+        margin-bottom: vc(4);
+        border-radius: 8px;
+        padding: vc(4);
+        font-weight: 500;
+        font-size: vc(10);
+        line-height: vc(16);
+        color: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(25px);
+    }
+
+    &__progress {
+        &-title {
+            margin-bottom: vc(4);
+            font-weight: 500;
+            font-size: vc(10);
+            line-height: vc(12);
+            letter-spacing: 0.02em;
+            color: $color-gray;
+        }
+
+        &-line {
+            position: relative;
+            border-radius: 16px;
+            width: vc(78);
+            height: vc(10);
+            background: #253c64;
+
+            span {
+                display: block;
+                border-radius: 16px;
+                padding: 1px;
+                height: 100%;
+                background: $color-gray;
+
+                .card__progress--compleated & {
+                    background: $color-green;
+                }
+
+                .card__progress--active & {
+                    background: $color-blue;
+                }
+            }
+        }
+
+        &--notLaunch {
+            .card__progress-title {
+
+            }
+        }
+
+        &--compleated {
+            .card__progress-title {
+                color: $color-green;
+            }
+        }
+
+        &--active {
+            .card__progress-title {
+                color: $color-blue;
+            }
+        }
+    }
+
+    &__image {
+        position: absolute;
+        right: vc(-8);
+        bottom: vc(-14);
+        width: vc(80);
+        height: vc(80);
+    }
+}

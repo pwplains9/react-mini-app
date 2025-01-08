@@ -53,7 +53,7 @@ body {
 
 #root {
 	position: relative;
-	overflow-x: hidden;
+	overflow: hidden;
 	width: vc(390);
 	margin: 0 auto;
 	min-height: 100vh;
@@ -254,3 +254,8 @@ iframe {
 //	animation-timing-function: cubic-bezier(.215,.61,.355,1) !important;
 //}
 
+
+.page {
+	height: 90vh;
+	overflow-y: auto;
+}

@@ -49,7 +49,7 @@ const dataLeaderBoard = [{
 }];
 const Home = () => {
 	return (<>
-			<div className="home">
+			<div className="page home">
 				<Header/>
 				<div className="home__title">
 					Palcoin
