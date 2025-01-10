@@ -15,12 +15,20 @@
     backdrop-filter: blur(25px);
 
     &__title {
+        display: flex;
+        align-items: center;
+        gap: vc(8);
         margin-bottom: vc(20);
         font-family: $font-Drunk;
         font-weight: 1000;
         font-size: vc(14);
         line-height: vc(24);
         letter-spacing: -0.02em;
+
+        svg {
+            width: vc(16);
+            height: vc(16);
+        }
     }
 
     &__length {
@@ -52,11 +60,12 @@
             width: vc(78);
             height: vc(10);
             background: #253c64;
+            padding: 1px;
 
             span {
                 display: block;
                 border-radius: 16px;
-                padding: 1px;
+
                 height: 100%;
                 background: $color-gray;
 
@@ -91,9 +100,9 @@
 
     &__image {
         position: absolute;
-        right: vc(-8);
-        bottom: vc(-14);
-        width: vc(80);
-        height: vc(80);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: -1;
     }
 }

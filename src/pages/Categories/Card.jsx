@@ -1,5 +1,6 @@
 import Image from '../../components/Ui/Image.jsx';
 import {useState} from 'react';
+import SvgIcon from '../../components/Ui/Icon.jsx';
 
 const Card = ({
 	title = 'Category',
@@ -15,6 +16,8 @@ const Card = ({
 		<div className=" card">
 			<div className="card__title">
 				{title}
+
+				{progress === 100 &&    <SvgIcon name={'check'}></SvgIcon>}
 			</div>
 			<div className="card__length">
 				{currentAnswers} / {length}

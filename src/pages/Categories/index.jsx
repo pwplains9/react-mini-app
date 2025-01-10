@@ -50,16 +50,16 @@ const dataCategory = [
 		currentAnswers: 20,
 		image: 'images/category/math.svg',
 	},{
-		title: 'Music',
+		title: 'Geography',
 		length: 20,
 		currentAnswers: 15,
-		image: 'images/category/music.svg',
+		image: 'images/category/geography.svg',
 	},
 	{
-		title: 'Math',
+		title: 'Animals',
 		length: 20,
 		currentAnswers: 20,
-		image: 'images/category/math.svg',
+		image: 'images/category/animals.svg',
 	},
 ];
 const Categories = () => {
