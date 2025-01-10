@@ -32,12 +32,21 @@
             gap: vc(12);
 
             svg {
+                opacity: 0.6;
+                transition: all 0.3s ease-in;
+            }
+
+            svg {
                 width: vc(20);
                 height: vc(20);
             }
 
             &.active {
                 color: $color-white;
+
+                svg {
+                    opacity: 1;
+                }
             }
         }
     }

@@ -72,7 +72,6 @@ const Categories = () => {
 						return (
 							<Card key={key} title={item.title} length={item.length} currentAnswers={item.currentAnswers}
 								  image={item.image}/>
-
 						);
 					})
 				}
